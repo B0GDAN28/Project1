@@ -1,6 +1,7 @@
 # print("Hello,World!")
 Name = input("Introduce-ti numele dumneavoastra:")
-height = input('introduce-ti inaltimea dumneavoastra')
-weight= input('introduce=ti greutatea dumneavoastra')
-print("Buna ziua " + Name)
-print("Aveti inaltimea de:"+ height +" si greutatea de:" +weight)
+Height = input('introduce-ti inaltimea dumneavoastra')
+Weight = input('introduce=ti greutatea dumneavoastra')
+message="Buna ziua {name}. Aveti inaltimea de {height} si greutatea de {weight}".format(name=Name,height=Height, weight=Weight)
+print(message)
+
